@@ -6,18 +6,25 @@
   </head>
   
   
-  
-  <body>
-    <div class="wrapper">
-      <a href="/shakespeare"><input type="image" name="submit" value="submit" src="../images/insultron.png" /></a>
+ <body>
+   <p>
+    <div class="button1">
+      <a href="/random_shakespeare.erb"><input type="image" name="submit" value="submit" src="../images/shakespearerandom.png" /></a>
     </div>
    
   
-  </body>
-</html>
+  
+ 
+
+    <div class="button2">
+      <a href="/random_modern.erb"><input type="image" name="submit" value="submit" src="../images/modernrandom.png" /></a>
+    </div>
+ 
 
 
-<p>
+    <p>
     <%= @insult %>
     <%= @modern_random %>
     </p>
+  </body>
+</html>
