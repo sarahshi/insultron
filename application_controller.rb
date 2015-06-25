@@ -7,13 +7,13 @@ require_relative 'models/results.rb'
 class ApplicationController < Sinatra::Base
 
   get '/' do
-    @insult = shakespeare
     erb :index
   end
   
-  get '/' do
-    @insult = modern_random
-    erb :index
+  get '/shakespeare' do
+    @insult = shakespeare
+   
+    erb :shakespeare
   end
 
 end
