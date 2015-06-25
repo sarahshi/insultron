@@ -17,4 +17,3 @@ if shakespeare_adverb.start_with?("a","e","i","o","u")
   "You are a #{shakespeare_adverb} #{shakespeare_adjective} #{shakespeare_noun}."
   end
 end
-

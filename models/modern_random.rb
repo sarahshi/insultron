@@ -1,4 +1,4 @@
-def modern_random
+def modern
 
 modern_adverb=['frighteningly', 'frigidly', 'foolishly', 'frightfully', 'amazingly', 'angrily', 'annoyingly', 'appropriately', 'arrogantly', 'badly', 'bleakly', 'carelessly', 'constantly', 'continuously', 'cruelly', 'dopily', 'extremely', 'hopelessly', 'painfully', 'remarkably', 'supremely'] 
   
