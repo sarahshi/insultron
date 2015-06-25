@@ -11,7 +11,7 @@ shakespeare_adjective = shakespeare2[rand(shakespeare2.length)]
 shakespeare_noun = shakespeare3[rand(shakespeare3.length)]
 
 
-  if shakespeare_adverb.start_with?("a","e","i","o","u")
+if shakespeare_adverb.start_with?("a","e","i","o","u")
   "You are an #{shakespeare_adverb} #{shakespeare_adjective} #{shakespeare_noun}."
   else
   "You are a #{shakespeare_adverb} #{shakespeare_adjective} #{shakespeare_noun}."
