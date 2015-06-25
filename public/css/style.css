@@ -1,0 +1,8 @@
+#location{
+     position: fixed;
+     
+     width: 100px;
+     height: 100px;
+     background-color: url('../public/images/insultron.png');
+     border: none;
+}
