@@ -1,7 +1,26 @@
-.wrapper {
-    position: absolute;
-    left:35%;
-    
-    
-    bottom:40%;
+.buttonn{
+  position:fixed;
+  left: 33%;
+  top: 37%;
+  background-image: ("Screen_Shot2");
+
+
+.wrapper{
+  text-align: center;
 }
+body{
+  text-align:center;
+  font-size:40px;
+  top:50%;
+  bottom:50%;
+ 
+}
+
+p{
+  text-align:center;
+  font-family: 'Arvo', serif;
+  font-size:40px;
+  
+}
+
+
